@@ -3,4 +3,4 @@ project(test_vfs)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(test_vfs main.cpp)
+add_executable(test_vfs src/main.cpp src/VirtualFileSystem.cpp)
